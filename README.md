@@ -40,6 +40,11 @@ The major references for the implementation are (check the references cited in t
     * msd: the mean square displacement (MSD), Nt*Ne matrix
     * sigma_vac: conductivity from the VAC, Nt*Ne matrix
     * sigma_msd: conductivity from the MSD, Nt*Ne matrix
+* Unit system
+    * reduced Planck constant hbar = 1
+    * elementary charge e = 1
+    * energy unit is choosen by the user
+    * length unit is choosen by the user
 
 ## Purposes of this code
 
