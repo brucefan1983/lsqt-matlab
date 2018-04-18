@@ -2,9 +2,14 @@
 A 200-line MATLAB code for a linear-scaling quantum transport method
 
 This code can be used to obtain intrinsic electronic transport properties of large systems described by a real-space tight-binding Hamiltonian. It differs from the GPUQT code (https://github.com/brucefan1983/gpuqt) in two ways:
-* The GPUQT is more than two orders of magnitude faster.
-* The GPUQT accept inputs for a general Hamiltonian, but the current code is only for 
+* GPUQT is more than two orders of magnitude faster.
+* GPUQT accepts inputs for a general Hamiltonian, but the current code is only for 
 the square lattice model with Anderson disorder.
+
+* Purposes of this code
+    * Help the readers who are interested in this linear-scaling quantum transport method to better understand it. 
+    * The students in my course are asked to use the code to reproduce the results in sections 5.1 of Ref. [2] above. 
+This is an optional course project.
 
 The major references for the implementation are (check the references cited in the papers below for original works on this method):
 * [1] Z. Fan, A. Uppstu, T. Siro, and A. Harju, Efficient linear-scaling quantum transport calculations on graphics processing units and applications on electron transport in graphene, Comput. Phys. Commun. 185, 28 (2014).
@@ -55,13 +60,6 @@ The major references for the implementation are (check the references cited in t
         * VAC: a^2*gamma^2/hbar^2
         * MSD: a^2
         * electrical conductivity: e^2/hbar
-
-## Purposes of this code
-
-* Help the readers who are interested in this linear-scaling quantum transport method to better understand it. 
-
-* The students in my course are asked to use the code to reproduce the results in sections 5.1 of Ref. [2] above. 
-This is an optional course project.
 
 ## Contact
 
