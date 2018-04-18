@@ -16,7 +16,6 @@ if flag_vac==1
         vac(:,ne)=vac(:,ne)/dos(ne);
     end
 end
-
 if flag_msd==1
     msd=find_msd(M,E_max,dt*E_max,E,H,V/E_max,phi);
     sigma_msd=zeros(length(dt),length(E));
