@@ -1,7 +1,10 @@
 # lsqt-matlab
 A 200-line MATLAB code for a linear-scaling quantum transport method
 
-This code can be used to obtain intrinsic electronic transport properties of large systems described by a real-space tight-binding Hamiltonian together with one or more types of disorder.
+This code can be used to obtain intrinsic electronic transport properties of large systems described by a real-space tight-binding Hamiltonian. It differs from the GPUQT code (https://github.com/brucefan1983/gpuqt) in two ways:
+* The GPUQT is more than two orders of magnitude faster.
+* The GPUQT accept inputs for a general Hamiltonian, but the current code is only for 
+the square lattice model with Anderson disorder.
 
 The major references for the implementation are (check the references cited in the papers below for original works on this method):
 * [1] Z. Fan, A. Uppstu, T. Siro, and A. Harju, Efficient linear-scaling quantum transport calculations on graphics processing units and applications on electron transport in graphene, Comput. Phys. Commun. 185, 28 (2014).
