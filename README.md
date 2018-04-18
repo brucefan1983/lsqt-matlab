@@ -22,22 +22,24 @@ The major references for the implementation are (check the references cited in t
     * find_moments (calls nothing)
 
 * lsqt is the driver function which the user will call.
-    * Inputs
+
+## Inputs and outputs of the driver function (Nt is the number of time points; Ne is the number of energy points)
+    * Inputs of the driver function 
         * Nx: number of lattice points in the x direction
         * Ny: number of lattice points in the y direction
         * W: Anderson disorder strength
-        * E: energy points (a row vector)
+        * E: energy points (1*Ne matrix)
         * E_max: energy scaling factor
-        * dt: time steps (a column vector)
+        * dt: time steps (Nt*1 matrix)
         * M: order of Chebyshev polynomial expansion
         * flag_vac: if this is 1, calculate the VAC and related quantities
         * flag_msd: if this is 1, calculate the MSD and related quantities
-    * Outputs
-        * dos
-        * vac
-        * msd
-        * sigma_vac
-        * sigma_msd
+    * Outputs of the driver function 
+        * dos: the density of states (DOS), 1*Ne matrix
+        * vac: the velocity autocorrelation (VAC), Nt*Ne matrix
+        * msd: the mean square displacement (MSD), Nt*Ne matrix
+        * sigma_vac: conductivity from the VAC, Nt*Ne matrix
+        * sigma_msd: conductivity from the MSD, Nt*Ne matrix
 
 ## Purposes of this code
 
