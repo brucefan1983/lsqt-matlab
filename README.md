@@ -54,7 +54,7 @@ This is an optional course project.
         * elementary charge e = 1
         * energy unit gamma is choosen by the user
         * length unit a is choosen by the user
-    * dericved units:
+    * derived units:
         * time: hbar/gamma
         * DOS: 1/gamma/a^2
         * VAC: a^2*gamma^2/hbar^2
