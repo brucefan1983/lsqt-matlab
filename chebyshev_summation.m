@@ -2,8 +2,6 @@ function s=chebyshev_summation(M,C,E,E_max)
 for m=0:M-1
     a=1/(M+1);
     g=(1-m*a)*cos(pi*m*a)+a*sin(pi*m*a)/tan(pi*a);
-    %g=sinh(4*(1-m/M))/sinh(4);% Lorentz-4
-    %g=0.5*(1+cos(pi*m*a));
     C(m+1)=C(m+1)*g;
 end
 s=zeros(1,length(E));
