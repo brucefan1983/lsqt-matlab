@@ -41,14 +41,21 @@ The major references for the implementation are (check the references cited in t
     * sigma_vac: conductivity from the VAC, Nt*Ne matrix
     * sigma_msd: conductivity from the MSD, Nt*Ne matrix
 * Unit system
-    * reduced Planck constant hbar = 1
-    * elementary charge e = 1
-    * energy unit is choosen by the user
-    * length unit is choosen by the user
+    * basic units:
+        * reduced Planck constant hbar = 1
+        * elementary charge e = 1
+        * energy unit gamma is choosen by the user
+        * length unit a is choosen by the user
+    * dericved units:
+        * time: hbar/gamma
+        * DOS: 1/gamma/a^2
+        * VAC: a^2*gamma^2/hbar^2
+        * MSD: a^2
+        * electrical conductivity: e^2/hbar
 
 ## Purposes of this code
 
-* Help the readers who are interested in this linear-scaling quantum transport method to thorougly understand it. 
+* Help the readers who are interested in this linear-scaling quantum transport method to better understand it. 
 
 * The students in my course are asked to use the code to reproduce the results in sections 5.1 of Ref. [2] above. 
 This is an optional course project.
