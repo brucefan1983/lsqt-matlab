@@ -1,9 +1,9 @@
 # lsqt-matlab
 A 200-line MATLAB code for a linear-scaling quantum transport method
 
-This code can be used to obtain intrinsic electronic transport properties of large systems described by a real-space tight-binding Hamiltonian. It differs from the GPUQT code (https://github.com/brucefan1983/gpuqt) in two ways:
-* GPUQT is more than two orders of magnitude faster.
-* GPUQT accepts inputs for a general Hamiltonian, but the current code is only for 
+* This code can be used to obtain intrinsic electronic transport properties of large systems described by a real-space tight-binding Hamiltonian. It differs from the GPUQT code (https://github.com/brucefan1983/gpuqt) in two ways:
+    * GPUQT is more than two orders of magnitude faster.
+    * GPUQT accepts inputs for a general Hamiltonian, but the current code is only for 
 the square lattice model with Anderson disorder.
 
 * Purposes of this code
@@ -11,9 +11,9 @@ the square lattice model with Anderson disorder.
     * The students in my course are asked to use the code to reproduce the results in sections 5.1 of Ref. [2] above. 
 This is an optional course project.
 
-The major references for the implementation are (check the references cited in the papers below for original works on this method):
-* [1] Z. Fan, A. Uppstu, T. Siro, and A. Harju, Efficient linear-scaling quantum transport calculations on graphics processing units and applications on electron transport in graphene, Comput. Phys. Commun. 185, 28 (2014).
-* [2] Z. Fan, V. Vierimaa, and Ari Harju, GPUQT: An efficient linear-scaling quantum transport code fully implemented on graphics processing units, arXiv:1705.01387 [physics.comp-ph], to be published in Comput. Phys. Commun.
+* The major references for the implementation are (check the references cited in the papers below for original works on this method):
+    * [1] Z. Fan, A. Uppstu, T. Siro, and A. Harju, Efficient linear-scaling quantum transport calculations on graphics processing units and applications on electron transport in graphene, Comput. Phys. Commun. 185, 28 (2014).
+    * [2] Z. Fan, V. Vierimaa, and Ari Harju, GPUQT: An efficient linear-scaling quantum transport code fully implemented on graphics processing units, arXiv:1705.01387 [physics.comp-ph], to be published in Comput. Phys. Commun.
 
 ## File organizations
 
