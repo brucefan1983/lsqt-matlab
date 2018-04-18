@@ -25,9 +25,9 @@ The major references for the CUDA implementation are
 
 ## Purposes of this code
 
-* Help the readers who are interested in this lienar-scaling quantum transport method to thorougly understand it. 
+* Help the readers who are interested in this linear-scaling quantum transport method to thorougly understand it. 
 
-* The students in my course are asked to use the code to reproduce the results in sections 5.1 of Ref. [1] above. 
+* The students in my course are asked to use the code to reproduce the results in sections 5.1 of Ref. [2] above. 
 This is an optional course project.
 
 ## Contact
