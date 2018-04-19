@@ -8,7 +8,7 @@ the square lattice model with Anderson disorder.
 
 * Purposes of this code
     * Help the readers who are interested in this linear-scaling quantum transport method to better understand it. 
-    * The students in my course are asked to use the code to reproduce the results in sections 5.1 of Ref. [2] above. 
+    * The students in my course are asked to use the code to reproduce the results in sections 5.1 of Ref. [2] below. 
 This is an optional course project.
 
 * The major references for the implementation are (check the references cited in the papers below for original works on this method):
